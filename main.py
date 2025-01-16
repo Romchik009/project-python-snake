@@ -55,7 +55,7 @@ def game_session():
         # Отрисовка окна при проигрыше
         while game_quit is True:
             dis.fill(conf.black)
-            message("Game Over - Нажми q - Выход или r - заного", conf.red, font_style,
+            message("Game Over - Нажми q - Выход или r - заново", conf.red, font_style,
                     conf.display_horizontal_size_x,
                     conf.display_vertical_size_y)
             show_score(snake_length - 1)
